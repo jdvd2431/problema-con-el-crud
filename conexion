@@ -1,0 +1,9 @@
+<?php
+try {
+    $conexion = new PDO('mysql:host=localhost;dbname=conjunto_residencial','root', '');
+} catch (PDOException $e) {
+    echo "Error:" . $e->getMessage();
+}
+
+
+?>
